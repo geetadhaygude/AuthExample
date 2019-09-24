@@ -1,0 +1,148 @@
+.header,.data,.footer{
+    padding: 10px;
+}
+.footer{
+    position: fixed;
+    bottom: 10px;
+    left: 0px;
+    width: 100%;
+    padding-bottom: 20px
+    
+}
+
+.footer .first{
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background: rgb(187, 190, 192);
+    text-align: right;
+}
+
+.symbol{
+    padding: 10px;
+}
+.footer .second{
+    border-radius: 50px;
+    background: rgb(187, 190, 192);
+}
+
+.footer .third{
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px; 
+    background: rgb(187, 190, 192);
+}
+
+.score{
+    padding: 10px 30px;
+}
+
+
+.player{
+    font-size: 16px;
+    font-weight: 600;
+    color: blue;
+}
+
+.fa-caret-right{
+    position: absolute;
+    left: 6px;
+    padding-top: 3px;
+}
+
+
+.content{
+    padding-left:10px;
+    color: white;
+
+
+}
+.totalRun{
+    
+    padding-top:5px;
+    color: white; 
+}
+
+.totalRun .first{
+    /* background-image: linear-gradient(to right,blueviolet,rgb(142,11,133)); */
+    background-image: linear-gradient(to right,rgb(26,30,107),rgb(149,16,61));
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-left:35px; 
+    text-align:left;
+    
+}
+
+.totalRun .first span:first-child{
+    color: RGB(192, 192, 192)
+}
+
+.totalRun .first span:nth-child(2){
+    font-weight: 600
+}
+
+.totalRun .secondBox{
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-image: linear-gradient(to right,rgb(26,30,107),rgb(59,113,169))
+}
+
+.totalRun .thirdBox{
+    text-align: center;
+}
+
+.history{
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    padding-left: 14px;
+    padding-top: 3px;
+}
+
+.overs{
+    color: rgb(26,30,107);
+    font-weight: 600;
+    padding-top: 5px;
+}
+
+.ballwise{
+    padding-left: 10px;
+    padding-top: 5px;
+    color: rgb(26,30,107);   
+    font-weight: 600;
+    font-size: 12px;
+}
+.ballwise .circle{
+    
+    border-radius:20px;
+    border: 3px solid  rgb(26,30,107);
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+ 
+}
+
+.ballwise .run{
+
+    position: absolute;
+    top:36px;
+    right: 98px;
+    color: white    
+}
+
+.ballwise .wide{
+    position: absolute;
+    top: 38px;
+    font-size: 10px;
+    color: white
+}
+
+.ballwise .dot{
+    background: rgb(26,30,107);
+    width: 12px;
+    height: 12px;
+    border-radius: 10px;
+    position: relative;
+    left: 3px;
+    top:3px;
+
+}

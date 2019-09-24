@@ -1,0 +1,111 @@
+<div class="home">
+  <div class="header">
+
+  </div>
+  <div class="data" style="text-align: center">
+    <img src="assets/img.png">
+
+  </div>
+  <h1>{{headingName}}</h1>
+  <h2>{{master}} controls {{heroes.length}} heroes</h2>
+    <app-home-child 
+      [hero]="heroes"
+      [master]="master"
+      (objChild)="parentFun($event)"
+      (objChildString)="parentFun($event)"  
+       >
+    </app-home-child>
+  <!-- <div class="footer">
+    <div class="row">
+      <div class="col-lg-2 first">
+        <div class="symbol">
+          <span class="fa fa-3x fa-credit-card-alt"></span>
+        </div>
+      </div>
+      <div class="col-lg-8 second">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="row player" style="padding-left: 30px;padding-top: 10px">
+              <div class="col-lg-6">
+                <span class="fa fa-caret-right" style="color:red"></span>
+                <span class="">K L Rahul</span>
+              </div>
+              <div class="col-lg-6" style="text-align: right"> 
+                <span>100</span>
+                <span style="font-size:10px;color: red">120</span>
+              </div>
+            </div>
+            <div class="row player" style="padding-bottom:10px;padding-left:30px ">
+              <div class="col-lg-6">
+                <span class="">Rohit Sharma</span>
+              </div>
+              <div class="col-lg-6" style="text-align: right">
+                <span>100</span>
+                <span style="font-size:10px;color: red">110</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4" style="border-radius:40px;background: rgb(26,30,107);margin: 5px 0px;text-align: center">
+            <div class="row totalRun">
+                <div class="col-lg-6 first">
+                  <span style="position: relative;left:-20px">BAN v</span>
+                  <span style="position: relative;left:-20px">IND</span>
+                  <span style="position:relative;right:-5px;font-weight: 600">200-0</span>
+                </div>
+                <div class="col-lg-2 secondBox">P1</div>
+                <div class="col-lg-2 thirdBox">
+                  <span>0.3</span>
+                </div>
+            </div>
+            <div class="row history">
+              <span>INDIA WON THE TOSS AND CHOOSE TO BAT</span>
+            </div>
+
+          </div>
+          <div class="col-lg-4">
+              <div class="row overs ">
+                  <div class="col-lg-6" style="position:relative;left:15px">
+                    <span>MORTAZA</span>
+                  </div>
+                  <div class="col-lg-3" >
+                    <span>0-2<span style="font-size:12px;padding-left: 5px">0.3</span></span>
+                  </div>
+              </div>
+              <div class="row ballwise">
+                <div style="padding:0px 20px">
+                  <div class="circle">
+                    <div class="dot"></div>
+                  </div>
+                  <div class="circle">
+                      <div class="dot"></div>
+                  </div>
+                  <div class="circle" style="background:rgb(26,30,107); ">
+                    <span class="wide">WD</span>
+                  </div>
+                  <div class="circle">
+                      <div class="dot"></div>
+                  </div>
+                  <div class="circle" style="background:rgb(26,30,107);">
+                    <span class="wide" style="left:146px">W</span>
+                  </div>
+                  <div class="circle">
+                      <div class="dot"></div>
+                  </div>
+                  <div class="circle" style="background: rgb(26,30,107);">
+                    <span class="run">1</span>
+                  </div>
+                </div>
+              </div>
+          </div>
+            
+        </div>
+      </div>
+      <div class="col-lg-2 third">
+        <div class="symbol">
+          <span class="fa fa-3x fa-credit-card-alt"></span>
+        </div>
+      </div>
+
+    </div>
+  </div> -->
+</div>
